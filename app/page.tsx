@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Me from "@/public/IMG_0491.jpeg";
+import { TCanvas } from "./components/TCanvas";
 
 export default function Home() {
   return (
@@ -64,6 +65,7 @@ export default function Home() {
           </p>
         </div>
       </div>
+      <TCanvas />
     </div>
   );
 }
