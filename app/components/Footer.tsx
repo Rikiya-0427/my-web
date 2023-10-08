@@ -18,8 +18,13 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            <a href="mailto:maeda.84gjksoca@gmail.com" className="hover:underline">
+            <a href="mailto:maeda.84gjksoca@gmail.com" className="mr-4 hover:underline md:mr-6">
               Contact
+            </a>
+          </li>
+          <li>
+            <a href="/login" className="hover:underline">
+              Admin
             </a>
           </li>
         </ul>
