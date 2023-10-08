@@ -1,10 +1,6 @@
 import Link from "next/link";
-// import prisma from "../db";
+import prisma from "../db";
 import Image from "next/image";
-
-import { PrismaClient } from '@prisma/client'
-
-const prisma = new PrismaClient()
 
 async function getBlogs() {
   const data = await prisma.blog.findMany({
